@@ -5,13 +5,16 @@ An AI-powered Stock Market Trend Prediction system that combines Machine Learnin
 ## 🚀 Features
 
 * 📊 Real-time stock market data visualization
-* 📰 Sentiment Analysis using news/headlines
+* 📰 Sentiment Analysis using news and headlines
 * 🤖 Machine Learning & Deep Learning prediction models
-* 📈 Interactive charts using Plotly
+* 📈 Interactive charts using Plotly and Matplotlib
 * 🌐 Streamlit-based responsive web application
 * 🔍 Trend forecasting and market insights
+* 📉 Historical stock data analysis using yFinance API
 
-## 🛠️ Technologies Used
+---
+
+# 🛠️ Technologies Used
 
 * Python
 * Streamlit
@@ -24,7 +27,7 @@ An AI-powered Stock Market Trend Prediction system that combines Machine Learnin
 
 ---
 
-# ⚙️ VS Code Extensions Recommended
+# ⚙️ Recommended VS Code Extensions
 
 ## Python & AI
 
@@ -46,66 +49,105 @@ An AI-powered Stock Market Trend Prediction system that combines Machine Learnin
 
 ---
 
-# 📥 Installation & Setup
+# 📦 Install Required Libraries Using Terminal
 
-## 1️⃣ Clone Repository
+Run these commands inside VS Code Terminal or Command Prompt.
 
-```bash
-git clone YOUR_REPOSITORY_LINK
-cd Stock-Market-Trend-Prediction-Using-Sentiment-Analysis
+## ✅ Upgrade pip
+
+```bash id="e1w9q2"
+python -m pip install --upgrade pip
 ```
 
 ---
 
-## 2️⃣ Create Virtual Environment
+## Install Streamlit
 
-```bash
-python -m venv venv
+```bash id="r6u8zx"
+pip install streamlit
+```
+
+## Install TensorFlow
+
+```bash id="m2t5qa"
+pip install tensorflow
+```
+
+## Install Pandas
+
+```bash id="p7k4vb"
+pip install pandas
+```
+
+## Install NumPy
+
+```bash id="n4d8ye"
+pip install numpy
+```
+
+## Install Scikit-learn
+
+```bash id="c9s1tf"
+pip install scikit-learn
+```
+
+## Install Plotly
+
+```bash id="w5h3un"
+pip install plotly
+```
+
+## Install Matplotlib
+
+```bash id="z2f6pl"
+pip install matplotlib
+```
+
+## Install yFinance
+
+```bash id="x8m4gr"
+pip install yfinance
+```
+
+## Install NLTK
+
+```bash id="v1o7qe"
+pip install nltk
+```
+
+## Install TextBlob
+
+```bash id="b6y9dk"
+pip install textblob
+```
+
+## Install Requests
+
+```bash id="q3p8sl"
+pip install requests
 ```
 
 ---
 
-## 3️⃣ Activate Virtual Environment
+# 🔥 Install Everything Together (Recommended)
 
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Mac/Linux
-
-```bash
-source venv/bin/activate
+```bash id="j9v2am"
+pip install streamlit tensorflow pandas numpy scikit-learn plotly matplotlib yfinance nltk textblob requests
 ```
 
 ---
 
-## 4️⃣ Install Required Packages
-
-```bash
-pip install -r requirements.txt
-```
-
-If requirements.txt is unavailable:
-
-```bash
-pip install streamlit pandas numpy matplotlib plotly scikit-learn tensorflow yfinance nltk textblob
-```
-
----
-
-# 📦 Download NLTK Data
+# 📥 Download NLTK Data
 
 Run Python:
 
-```bash
+```bash id="u7r3nx"
 python
 ```
 
 Then execute:
 
-```python
+```python id="a5d8cp"
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -115,31 +157,40 @@ exit()
 
 ---
 
+# 📂 Clone Repository
+
+```bash id="f4k8ye"
+git clone YOUR_REPOSITORY_LINK
+cd Stock-Market-Trend-Prediction-Using-Sentiment-Analysis
+```
+
+---
+
 # ▶️ Run the Streamlit Application
 
-```bash
+```bash id="s1m7qd"
 streamlit run streamlit_app.py
 ```
 
 Open in browser:
 
-```bash
+```bash id="t8p5vr"
 http://localhost:8501
 ```
 
 ---
 
-# 🔧 Optional Warning Fix
+# 🔧 Optional Streamlit Warning Fix
 
 Replace:
 
-```python
+```python id="h4u6bn"
 use_container_width=True
 ```
 
 With:
 
-```python
+```python id="g2w9lc"
 width='stretch'
 ```
 
@@ -160,4 +211,3 @@ This removes Streamlit deprecation warnings.
 # 👨‍💻 Author
 
 Chitra Rathore
-
